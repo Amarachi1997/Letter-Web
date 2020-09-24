@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>sent letters</title>
+
+    <!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            
+   <!--font awesome css-->
+   <script src="https://kit.fontawesome.com/02f2a73bb4.js" crossorigin="anonymous"></script>
+   
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/main.css">
+    
+    
+</head>
+<body id="dashboard-body">
+
+    
+    <!--navbar section for dashboard-->
+   <section id="head">
+    <div class="sub-head">
+        <div class="container">
+         <div class="row ">
+             <div class="col s6 m4 l3">
+                 <a href="#" class="brand-logo text-green center-align dashboard-tab">Letter <br> Likho.com</a>
+                 <ul id="slide-out" class="sidenav dash ">
+                     <li><img src="img/Illustration_1.png" alt="illusration" class="circle dashboard-image-2"></li>
+                 <li><h6 class="black-text center-align dashboard-name">Akash Bansonde</h6></li>
+                 <li><p class="black-text center-align dashboard-mail">akash_bansonde@gmail.com</p></li>
+                 <li><div class="divider"></div></li><br>
+                 <li> <a class="grey-text" href="#"> <i class="material-icons">home</i> Dashboard</a></li>
+                 <li><a class=" grey-text " href="saved.html"> <i class="material-icons">favorite_border</i> Saved Letters</a></li>
+                 <li><a class="actived grey-text" href="sent.html"> <i class="material-icons">message</i> Sent Letters</a></li><br>
+                 <li><div class="divider"></div></li><br>
+                 <li><a class="grey-text dashboard-name center-align"><i class="material-icons"> power_settings_new </i>  Log out</a></li>
+             
+                   </ul>
+                   <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons text-green">menu</i></a>
+             </div>
+             <div class="col m4 l4 line-tab"></div>
+             <div class="col s6 m4 l5 ">
+                 <img src="img/Illustration_1.png" alt="ill" class="circle dashboard-image-1 hide-on-med-and-down">
+                 <a class='dropdown-trigger btn transparent black-text' href='#' data-target='dropdown1'>Akash Basonde &#9660;<span></span></a>
+         
+                 <!-- Dropdown Structure -->
+                 <ul id='dropdown1' class='dropdown-content'>
+                   <li><a href="#!">one</a></li>
+                   <li><a href="#!">two</a></li>
+                   <li><a href="#!">three</a></li>
+                 </ul>
+             </div>
+         </div>
+        </div>
+    </div>
+
+</section>
+
+<!--main navbar section-->
+
+
+<section id="main-dashboard">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l3 user-main first-sub-head hide-on-med-and-down">
+             <ul>
+                 <li><img src="img/Illustration_1.png" alt="illusration" class="circle dashboard-image-2"></li>
+                 <li><h6 class="black-text center-align dashboard-name">Akash Bansonde</h6></li>
+                 <li><p class="black-text center-align dashboard-mail">akash_bansonde@gmail.com</p></li>
+                 <li><div class="divider"></div></li><br>
+                 <li> <a class=" grey-text" href="#"> <i class="material-icons">home</i> Dashboard</a></li>
+                 <li><a class=" grey-text center-align" href="saved.html"> <i class="material-icons">favorite_border</i> Saved Letters</a></li>
+                 <li><a class="actived grey-text" href="sent.html"> <i class="material-icons">message</i> Sent Letters</a></li><br>
+                 <li><div class="divider"></div></li><br>
+                 <li><a class="grey-text dashboard-name center-align"><i class="material-icons"> power_settings_new </i>  Log out</a></li>
+             
+             </ul>
+            </div>
+            
+         <div class="col s12 m8 l9">
+             <div class="second-sub-head-1">
+                 <div class="push">
+                     <p class="white-text saved-header">Welcome back! </p>
+                     <h4 class="white-text saved-header-2">Akash Bansonde</h4>
+                     
+                 </div>
+                 
+             </div>
+             <br>
+                <div class="sent-area-table-background">
+                    <div class="sent-area">
+                        <h5 class="black-text saved-sub-header">Sent Letters</h5>
+                         
+                     </div>
+     
+                     <div class="input-field ">
+                         <i class="material-icons prefix icon-search">search</i>
+                         <input id="icon_telephone" type="text" class="validate">
+                         <label for="icon_telephone">Search your messages</label>
+                     </div>
+     
+                     <div class="sent-table">
+                         <table>
+                             <colgroup>
+                                 <col>
+                                 <col span="3">
+                                 
+                             </colgroup>
+                             <thead>
+                                 <tr>
+                                     <th><label>
+                                         <input type="checkbox" />
+                                         <span class="white-text">.</span>
+                                       </label>
+                                     </th>
+                                     <th><i class="fa fa-undo" aria-hidden="true"></i></th>
+                                     <th><i class="fa fa-ellipsis-v" aria-hidden="true"></i></th>
+                                     <th>Letters</th>
+                                     <th>Date</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td>
+                                         <label>
+                                             <input type="checkbox" />
+                                             <span class="white-text">.</span>
+                                           </label>
+                                     </td>
+                                     <td><span class="material-icons">
+                                         star_border
+                                         </span>
+                                     </td>
+                                     <td>To: Vihrat Koholi</td>
+                                     <td>Lorem ipsum is simply the dummy text of printing and typesetting</td>
+                                     <td>12:00AM</td>
+                                 </tr>
+     
+                                 <tr>
+                                     <td>
+                                         <label>
+                                             <input type="checkbox" />
+                                             <span class="white-text">.</span>
+                                           </label>
+                                     </td>
+                                     <td><span class="material-icons">
+                                         star
+                                         </span>
+                                     </td>
+                                     <td>To: Vihrat Koholi</td>
+                                     <td>Lorem ipsum is simply the dummy text of printing and typesetting</td>
+                                     <td>12 may</td>
+                                 </tr>
+     
+                                 <tr>
+                                     <td>
+                                         <label>
+                                             <input type="checkbox" />
+                                             <span class="white-text">.</span>
+                                           </label>
+                                     </td>
+                                     <td><span class="material-icons">
+                                         star_border
+                                         </span>
+                                     </td>
+                                     <td>To: Vihrat Koholi</td>
+                                     <td>Lorem ipsum is simply the dummy text of printing and typesetting</td>
+                                     <td>Yesterday</td>
+                                 </tr>
+     
+                                 <tr>
+                                     <td>
+                                         <label>
+                                             <input type="checkbox" />
+                                             <span class="white-text">.</span>
+                                           </label>
+                                     </td>
+                                     <td><span class="material-icons">
+                                         star
+                                         </span>
+                                     </td>
+                                     <td>To: Vihrat Koholi</td>
+                                     <td>Lorem ipsum is simply the dummy text of printing and typesetting</td>
+                                     <td>Last Year</td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                     
+                     <button class="btn transparent show-button "><p class="grey-text mini-text-dash">Show <span class="black-text count">10 &#9660</span></p></button>
+                   
+     
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+       
+   </section>
+
+
+   <section id="footer">
+       <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col m2 l2"></div>
+                <p class="col s12 m8 l8 grey-text center-align footer-container">&copy <b class="black-text">LetterLikho.com</b>  All rights reserved. Designed by <span class="text-green">Tajwar Designs</span> </p> 
+                <div class="col m2 l2"></div>
+            </div>
+         
+        </div>
+       </footer>
+       
+   </section>
+   
+ <!--jquery-->
+<script src="js/jquery-3.3.1.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>   
