@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+#footer {
+  background: #fff;
+}
+
+#footer h2 {
+  font-weight: 700;
+  color: #007580;
+}
+
+#footer .footer__links, #footer .footer__icons {
+  padding: 10px 0 5px;
+  text-align: right;
+}
+
+#footer span, #footer a {
+  color: #bbbbbb;
+}
+
+#footer a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#footer i {
+  padding: 0  10px;
+  color: #007580;
+}
+/*# sourceMappingURL=main.css.map */
