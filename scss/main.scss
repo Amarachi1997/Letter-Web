@@ -1,13 +1,16 @@
-$green : #007580;
-$orange : #fed049;
+$green : #fb743e;
+$orange : #9fb8ad;
 $white: #fff;
 $grey: #bbbbbb;
+$black: #000;
 $font-weights:(
     'small': 400,
     'med' : 700,
     'lg' : 900
 );
+$radius: 10px;
 
+/*navigation*/
 nav.bg-light{
         background: $green !important;
         
@@ -37,6 +40,67 @@ nav.bg-light{
     flex-grow: 0 !important;
 } 
 
+
+/*header*/
+#home{
+    .header{
+        padding: 30px 0;
+    
+        
+        h2{
+            font-weight: map-get($font-weights , med );
+        }
+        img{
+        height: auto;
+        max-width: 80%;
+        }
+    }
+
+    .mid{
+       
+        form{
+            border: 5px solid $orange;
+            padding: 40px 90px;
+            height: 280px;
+            border-radius: $radius;
+
+            a{
+                font-size: 20px !important;
+                text-decoration: none;
+                display: inline-block;
+                padding: 20px;
+                color: $black;
+                font-weight: map-get($font-weights , med );
+            }
+
+            input{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                padding: 10px 0;
+            }
+        }
+
+        .log-form{
+            position: absolute;
+            margin-left: 270px !important;
+            margin-top: -40px;
+            z-index: 1;
+            background: $white;
+            height: 300px;
+            border-radius: $radius;
+            
+        }
+        .log-back{
+            background: $green;
+            text-align: left;
+            padding: 100px;
+        }
+    }
+
+}
+
+/*footer*/
 #footer{
     background: $white;
 
