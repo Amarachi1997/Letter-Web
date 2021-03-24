@@ -8,6 +8,35 @@ $font-weights:(
     'lg' : 900
 );
 
+nav.bg-light{
+        background: $green !important;
+        
+        a.navbar-brand{
+            font-weight: map-get($font-weights , med );
+            color: $white;
+            line-height: 1;
+        }
+
+        ul li a.nav-link{
+            color: $white !important;
+        }
+
+        a.btn.log{
+            border: 1px solid $white;
+            color: $white;
+            margin: 0 15px;
+        }
+
+        a.btn.sign{
+            color: $green;
+        }
+        
+    }
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+} 
+
 #footer{
     background: $white;
 

@@ -1,3 +1,33 @@
+nav.bg-light {
+  background: #007580 !important;
+}
+
+nav.bg-light a.navbar-brand {
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+nav.bg-light ul li a.nav-link {
+  color: #fff !important;
+}
+
+nav.bg-light a.btn.log {
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 0 15px;
+}
+
+nav.bg-light a.btn.sign {
+  color: #007580;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0 !important;
+      -ms-flex-positive: 0 !important;
+          flex-grow: 0 !important;
+}
+
 #footer {
   background: #fff;
 }
